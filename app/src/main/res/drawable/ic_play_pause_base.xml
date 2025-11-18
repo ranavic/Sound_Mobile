@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <group
+        android:name="group"
+        android:pivotX="12"
+        android:pivotY="12">
+
+        <!-- WRAPPED THE PLAY PATH IN A GROUP -->
+        <group android:name="group_play">
+            <path
+                android:name="path_play"
+                android:fillColor="@android:color/white"
+                android:pathData="M 8 5 L 8 19 L 19 12 Z" />
+        </group>
+
+        <!-- WRAPPED THE PAUSE PATH IN A GROUP -->
+        <group android:name="group_pause" android:alpha="0">
+            <path
+                android:name="path_pause"
+                android:fillColor="@android:color/white"
+                android:pathData="M 6 5 L 6 19 L 10 19 L 10 5 Z M 14 5 L 14 19 L 18 19 L 18 5 Z"/>
+        </group>
+    </group>
+</vector>

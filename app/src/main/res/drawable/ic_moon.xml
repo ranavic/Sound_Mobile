@@ -1,0 +1,11 @@
+<!-- Icon for "Sleep" -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,3c-4.97,0 -9,4.03 -9,9s4.03,9 9,9c2.03,0 3.9,-0.68 5.44,-1.81 -0.8,-0.5 -1.45,-1.24 -1.87,-2.09 -0.73,-1.49 -0.36,-3.24 0.88,-4.48 1.24,-1.24 2.99,-1.61 4.48,-0.88 0.85,0.42 1.59,1.07 2.09,1.87C20.32,15.9 21,13.97 21,12c0,-4.97 -4.03,-9 -9,-9z"/>
+</vector>

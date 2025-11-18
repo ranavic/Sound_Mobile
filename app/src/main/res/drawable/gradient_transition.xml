@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This drawable will be layer 0 -->
+    <item android:drawable="@drawable/gradient_focus" />
+    <!-- This drawable will be layer 1 (the one we transition to) -->
+    <item android:drawable="@drawable/gradient_sleep" />
+</transition>

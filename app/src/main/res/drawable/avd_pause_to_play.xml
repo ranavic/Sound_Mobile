@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_play_pause_base">
+
+    <!-- Fades the play GROUP IN -->
+    <target
+        android:name="group_play"
+        android:animation="@animator/fade_in" />
+
+    <!-- Fades the pause GROUP OUT -->
+    <target
+        android:name="group_pause"
+        android:animation="@animator/fade_out" />
+</animated-vector>
